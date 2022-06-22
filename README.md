@@ -1,4 +1,20 @@
-# \_transcribe\_
+# \_transcribe_RS422-fork\_
+
+### midi to _rs422_ bridge - for performance control of other old video mixers and switchers
+
+### a fork of the existing [_transcribe_](https://github.com/cyberboy666/_transcribe_) project to experiment with rs422 - an alternative serial protocol
+
+as discussed in this [github issue](https://github.com/cyberboy666/_transcribe_/issues/7) - the basic idea for this fork is to replace the max232 ic on transcribe with a max485 ic and experiment with a alternative version that will output rs422 serial instead. 
+
+ultimitately this fork could be merged into the mainline by way of a _transcribe_ circuit revision that allows both protocols or adds the option for this extension circuit to be connected
+
+panasonic mx20 is an example of a video mixer that could be controlled over rs422 serial - it expects it over (the rather uncommon) mini-din socket
+
+the panasonic mx50 i believe can take either rs232 or rs422 on its din9 sefrial socket (selectable by a switch) this could be a good way for me to test the circuit myself
+
+## main _transcribe_ readme
+
+<details><summary>readme from original version of _transcribe_</summary>
 
 ### midi to rs232 bridge - for performance control of old video mixers and switchers
 
@@ -257,3 +273,4 @@ Please get in touch if you are interested in hosting a workshop !
 
 Thanks to Gilbert Sinnott for helping with initial experiments. to Bastien Lavaud for circuit advice, always. To Ben Caldwell for project advice. To everyone who has or will contribute ♥♥♥
 
+</details>
