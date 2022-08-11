@@ -1,4 +1,4 @@
-137039225
+13121644515074
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85777,3 +85777,59 @@ varistor SIOV
 0
 2
 2
+lib_fp
+CUI_MD-80SV
+
+
+0
+10
+10
+lib_fp
+PinHeader_2x08_P2.54_Euro
+Through hole straight pin header, 2x08, 2.54mm pitch, double rows
+Through hole pin header THT 2x08 2.54mm double row
+0
+16
+16
+lib_fp
+ProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+lib_fp
+Tayda5pinMidi-A1010
+SDS-50J, standard DIN connector, 5 pins, midi
+SDS-50J DIN 5-pins connector midi
+0
+7
+5
+lib_fp
+horizontal_3.5mm_stereo_TRS_jack_A-853
+
+
+0
+5
+5
+lib_fp
+horizontal_din5-A1010
+SDS-50J, standard DIN connector, 5 pins, midi
+SDS-50J DIN 5-pins connector midi
+0
+7
+5
+lib_fp
+tht_DSUB-9_Vertical_Tayda
+9-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
+0
+11
+10
+lib_fp
+usbHostMidi
+Pro Micro footprint
+promicro ProMicro
+0
+25
+25
